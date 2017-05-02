@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="0dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="0dp"
+    android:paddingTop="?attr/actionBarSize"
+    tools:context="com.example.ahmed.popmovies.MainActivityFragment"
+    tools:showIn="@layout/content_main">
+
+
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        android:columnWidth="150dp"
+        android:id="@+id/gridviewMovie"
+        android:verticalSpacing="1dp"
+        android:horizontalSpacing="1dp"
+        android:clickable="true"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/empty_Textview"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/NoInformation"
+
+        />
+
+</FrameLayout>

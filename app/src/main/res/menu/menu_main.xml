@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ahmed.popmovies.MainActivity">
+
+
+    <item
+        android:id="@+id/poular_movies"
+        android:orderInCategory="100"
+        android:title="@string/Popular_Movies"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/top_rated"
+        android:orderInCategory="101"
+        android:title="@string/Top_Rated"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/favourites"
+        android:orderInCategory="102"
+        android:title="@string/Favourites"
+        android:showAsAction="never"
+        />
+</menu>
